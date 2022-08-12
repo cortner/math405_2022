@@ -21,7 +21,7 @@ Here I will post a brief summary of each class, including links to the relevant 
 
 #### Preview 
 
-In our first or second class I will give you a rapid introduction to the kind of problems and challenges that we will address in this course. Draft notes for the class are here: [L02-Preview-2ptBVP.ipynb](notes/L02-Preview-2ptBVP.ipynb)
+In our first or second class I will give you a rapid introduction to the kind of problems and challenges that we will address in this course. Draft notes for the class are here: [[L02-Preview-2ptBVP.ipynb]](notes/L02-Preview-2ptBVP.ipynb) or as [[HTML]](files/L02-Preview-2ptBVP.html)[[Slides]](files/L02-Preview-2ptBVP.slides.html)
 
 <!-- 
 #### Tue 8 Sep 2020
