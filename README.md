@@ -15,13 +15,17 @@ Classes are Monday, Wednesday, Friday 1000-1100.
 
 You must have access to a [Jupyter](https://jupyter.org) + [Julia](https://julialang.org) environment to complete the assignments. I will provide some instructions on how you can set this up on your private machines, but the recommended and supported way is via a Jupyter Hub server provided by the mathematics department. Instructions will follow. 
 
+There is a very nice [online textbook written by Toby Driscoll, Fundamentals of Numerical Computation.](https://fncbook.github.io/fnc/frontmatter.html). Although we won't use this book directly the general content and style are similar to MATH 405/607E. Student who would like to get a rough idea what this course will be like can take a look.
+
 ## Classes
 
 Here I will post a brief summary of each class, including links to the relevant notebooks and class notes. 
 
-#### Preview 
 
-In our first or second class I will give you a rapid overview to the kind of topics, problems and challenges that we will address in this course (we will of course revisit all of these topic in later classes). Draft notes for the class are here: [[L02-Preview-2ptBVP.ipynb]](notes/L02-Preview-2ptBVP.ipynb).
+
+<!-- #### Preview 
+
+In our first or second class I will give you a rapid overview to the kind of topics, problems and challenges that we will address in this course (we will of course revisit all of these topic in later classes). Draft notes for the class are here: [[L02-Preview-2ptBVP.ipynb]](notes/L02-Preview-2ptBVP.ipynb). -->
 
 <!-- 
 #### Tue 8 Sep 2020
