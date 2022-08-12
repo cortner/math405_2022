@@ -11,7 +11,7 @@ README.md
 
 <!-- Questions about the course should normally be posted on [PIAZZA](https://canvas.ubc.ca/courses/55324/external_tools/201?display=borderless) so that the entire group can benefit from the discussion. Please email the instructor only in exceptional circumstances, e.g. when an issue is clearly private. -->
 
-Classes are Monday, Wednesday, Friday 1000-1100. 
+Classes are Monday, Wednesday, Friday 1000-1100, West Mall Swing Space  (SWNG) Rm 107 
 
 You must have access to a [Jupyter](https://jupyter.org) + [Julia](https://julialang.org) environment to complete the assignments. I will provide some instructions on how you can set this up on your private machines, but the recommended and supported way is via a Jupyter Hub server provided by the mathematics department. Instructions will follow. 
 
