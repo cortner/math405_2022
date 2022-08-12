@@ -2,7 +2,7 @@ README.md
 # MATH 405/607E
 # Numerical Methods for Differential Equations
 
-<img src="scratch/Lshape.png" alt="banner" width="300"/>
+<img src="files/Lshape.png" alt="banner" width="300"/>
 
 [[Instructor: Christoph Ortner]](http://www.math.ubc.ca/~ortner/)
 [[SYLLABUS]](files/syllabus-math405-2022_draft.pdf)
@@ -21,7 +21,7 @@ Here I will post a brief summary of each class, including links to the relevant 
 
 #### Preview 
 
-In our first or second class I will give you a rapid introduction to the kind of problems and challenges that we will address in this course. Draft notes for the class are here: [[L02-Preview-2ptBVP.ipynb]](notes/L02-Preview-2ptBVP.ipynb) or as [[HTML]](files/L02-Preview-2ptBVP.html)[[Slides]](files/L02-Preview-2ptBVP.slides.html)
+In our first or second class I will give you a rapid introduction to the kind of problems and challenges that we will address in this course. Draft notes for the class are here: [[L02-Preview-2ptBVP.ipynb]](notes/L02-Preview-2ptBVP.ipynb) or as [[HTML]](https://htmlpreview.github.io/?files/L02-Preview-2ptBVP.html)[[Slides]](files/L02-Preview-2ptBVP.slides.html)
 
 <!-- 
 #### Tue 8 Sep 2020
