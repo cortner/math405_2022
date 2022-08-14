@@ -5,7 +5,7 @@ README.md
 <img src="files/Lshape.png" alt="banner" width="300"/>
 
 [[Instructor: Christoph Ortner]](http://www.math.ubc.ca/~ortner/)
-[[SYLLABUS]](files/syllabus-math405-2022_draft.pdf)
+[[SYLLABUS]](files/syllabus-math405-2022.pdf)
 
 <!--    [[PIAZZA]](https://canvas.ubc.ca/courses/55324/external_tools/201?display=borderless) -->
 
