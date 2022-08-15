@@ -2,8 +2,15 @@
 # +
 # I'm assuming math405.jl is the same folder
 # as Project.toml and Manifest.toml
-import Pkg 
-Pkg.activate(@__DIR__())  
+
+if DEPOT_PATH[1][1:12] != "/julia_depot"
+    @info("""You are not running in the `math405` Jupyter Hub environment. 
+             I'm therefore activating the local environment.
+             Make sure you know what you are doing! If this is unintentional 
+             then get in touch with your instructor to get help.""") 
+    import Pkg 
+    Pkg.activate(@__DIR__())  
+end
 
 using Plots
 using ForwardDiff
