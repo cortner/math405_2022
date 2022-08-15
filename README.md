@@ -16,6 +16,7 @@ Classes are Monday, Wednesday, Friday 1000-1100, West Mall Swing Space  (SWNG) R
 * You must have access to a [Jupyter](https://jupyter.org) + [Julia](https://julialang.org) environment to complete the assignments. I will provide some instructions on how you can set this up on your private machines, but the recommended and supported way is via a Jupyter Hub server provided by the mathematics department. Instructions will follow. 
 * There is a very nice [online textbook written by Toby Driscoll, Fundamentals of Numerical Computation.](https://fncbook.github.io/fnc/frontmatter.html). Although we won't use this book directly the general content and style are similar to MATH 405/607E. Student who would like to get a rough idea what this course will be like can take a look.
 * Note there is `dev` branch which we use to test assignments and course notes before releasing them on the `main` branch. You are welcome to look, but DO NOT complete any assignment that hasn't yet been released on the `main` branch!
+* Unless you  know what you are doing, please ignore the `jlproject` and `files` folders.
 
 ## Classes
 
