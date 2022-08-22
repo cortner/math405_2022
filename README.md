@@ -13,14 +13,35 @@ README.md
 
 Classes are Monday, Wednesday, Friday 1000-1100, West Mall Swing Space  (SWNG) Rm 107 
 
-You must have access to a [Jupyter](https://jupyter.org) + [Julia](https://julialang.org) environment to complete the assignments. I will provide some instructions on how you can set this up on your private machines, but the recommended and supported way is via a Jupyter Hub server provided by the mathematics department. Instructions will follow. 
-
-There is a very nice [online textbook written by Toby Driscoll, Fundamentals of Numerical Computation.](https://fncbook.github.io/fnc/frontmatter.html). Although we won't use this book directly the general content and style are similar to MATH 405/607E. Student who would like to get a rough idea what this course will be like can take a look.
+* You must have access to a [Jupyter](https://jupyter.org) + [Julia](https://julialang.org) environment to complete the assignments. I will provide some instructions on how you can set this up on your private machines, but the recommended and supported way is via a Jupyter Hub server provided by the mathematics department. Instructions will follow. 
+* There is a very nice [online textbook written by Toby Driscoll, Fundamentals of Numerical Computation.](https://fncbook.github.io/fnc/frontmatter.html). Although we won't use this book directly the general content and style are similar to MATH 405/607E. Student who would like to get a rough idea what this course will be like can take a look.
+* Note there is `dev` branch which we use to test assignments and course notes before releasing them on the `main` branch. You are welcome to look, but DO NOT complete any assignment that hasn't yet been released on the `main` branch!
+* Unless you  know what you are doing, please ignore the `jlproject` and `files` folders.
 
 ## Classes
 
 Here I will post a brief summary of each class, including links to the relevant notebooks and class notes. 
 
+
+## Gallery 
+
+<img src="files/Lshape_formula.png" width="200" />
+<img src="files/Lshape.png" width="300" />
+
+The course "cover image" is the famous Matlab logo. It is the solution of a second-order partial differential boundary value problem on an L-shaped domain.
+
+<img src="files/advection_formula.png" width="200" />
+<img src="files/advection.gif" width="300" />
+
+In the image above we see the numerical solution of an advection equation using an UNSTABLE numerical method. In this course we will learn to recognize and avoid such pitfalls.
+
+<img src="files/kdv_formula.png" width="200" />
+<img src="files/kdv.gif" width="300" />
+
+We will learn how to construct "spectral methods" to obtain high-accuracy solutions of highly nonlinear PDEs in only a handful of lines of code. Above the Korteveg-deVries equation and below the Cahn-Hilliard equation (modelling phase separation of binary fluids)
+
+<img src="files/cahnhilliard_formula.png" width="200" />
+<img src="files/cahnhilliard.gif" width="300" />
 
 
 <!-- #### Preview 
