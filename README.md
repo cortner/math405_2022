@@ -23,6 +23,26 @@ Classes are Monday, Wednesday, Friday 1000-1100, West Mall Swing Space  (SWNG) R
 Here I will post a brief summary of each class, including links to the relevant notebooks and class notes. 
 
 
+## Gallery 
+
+<img src="files/Lshape_formula.png" width="200" />
+<img src="files/Lshape.png" width="300" />
+
+The course "cover image" is the famous Matlab logo. It is the solution of a second-order partial differential boundary value problem on an L-shaped domain.
+
+<img src="files/advection_formula.png" width="200" />
+<img src="files/advection.gif" width="300" />
+
+In the image above we see the numerical solution of an advection equation using an UNSTABLE numerical method. In this course we will learn to recognize and avoid such pitfalls.
+
+<img src="files/kdv_formula.png" width="200" />
+<img src="files/kdv.gif" width="300" />
+
+We will learn how to construct "spectral methods" to obtain high-accuracy solutions of highly nonlinear PDEs in only a handful of lines of code. Above the Korteveg-deVries equation and below the Cahn-Hilliard equation (modelling phase separation of binary fluids)
+
+<img src="files/cahnhilliard_formula.png" width="200" />
+<img src="files/cahnhilliard.gif" width="300" />
+
 
 <!-- #### Preview 
 
