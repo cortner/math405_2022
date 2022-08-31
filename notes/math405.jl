@@ -29,9 +29,9 @@ using Test
 using NLsolve
 using Roots
 
-# module MATH405 
+module MATH405 
 
-# using Plots, LaTeXStrings
+using Plots, LaTeXStrings
 
 # function __copy_env__()
 #     run(`cp /Users/ortner/gits/math405/math405.jl ./`)
@@ -39,39 +39,39 @@ using Roots
 #     run(`cp /Users/ortner/gits/math405/Manifest.toml ./`)
 # end
 
-# function chebyshev_projection(N)
-#     t = range(0, pi, length=300)
-#     T = range(0, pi, length=N+1)
-#     plt = plot(cos.(t), sin.(t), lw=3, label ="", size=(500,300))
-#     for θ in T   
-#         plot!([cos(θ), cos(θ)], [sin(θ), 0.0], lw=2, c = :black, ls=:dash, label = "")
-#     end
-#     scatter!(cos.(T), sin.(T), ms=8, c=1, label = "")
-#     scatter!(cos.(T), 0*T, ms=8, c=2, label = "")
-#     xlabel!("Chebyshev Nodes")
-#     yticks!(Float64[])
-#     return plt
-# end 
+function chebyshev_projection(N)
+    t = range(0, pi, length=300)
+    T = range(0, pi, length=N+1)
+    plt = plot(cos.(t), sin.(t), lw=3, label ="", size=(500,300))
+    for θ in T   
+        plot!([cos(θ), cos(θ)], [sin(θ), 0.0], lw=2, c = :black, ls=:dash, label = "")
+    end
+    scatter!(cos.(T), sin.(T), ms=8, c=1, label = "")
+    scatter!(cos.(T), 0*T, ms=8, c=2, label = "")
+    xlabel!("Chebyshev Nodes")
+    yticks!(Float64[])
+    return plt
+end 
 
 
-# function illustrate_trapezoidal(f, N)
-#     xp = range(0, 1, length=100)
-#     X = range(0, 1, length=N+1)
-#     plot(xp, f.(xp), lw=2, label = L"f", size = (500, 300))
-#     plot!(X, f.(X), lw=2, m = :o, ms=6, label = L"s_1")
-# end
+function illustrate_trapezoidal(f, N)
+    xp = range(0, 1, length=100)
+    X = range(0, 1, length=N+1)
+    plot(xp, f.(xp), lw=2, label = L"f", size = (500, 300))
+    plot!(X, f.(X), lw=2, m = :o, ms=6, label = L"s_1")
+end
 
 
 
-# function illustrate_midpoint(f, N)
-#     xp = range(0, 1, length=100)
-#     plot(xp, f.(xp), lw=2, label = L"f", size = (500, 300))
-#     X = range(0.5/N, 1-0.5/N, length=N)
-#     for x in X
-#         plot!([x-0.5/N, x+0.5/N], [f(x), f(x)], lw=2, c=2, label = (x==X[1] ? L"s_0" : ""))
-#     end
-#     scatter!(X, f.(X), ms=6, c=2, label = "")
-# end
+function illustrate_midpoint(f, N)
+    xp = range(0, 1, length=100)
+    plot(xp, f.(xp), lw=2, label = L"f", size = (500, 300))
+    X = range(0.5/N, 1-0.5/N, length=N)
+    for x in X
+        plot!([x-0.5/N, x+0.5/N], [f(x), f(x)], lw=2, c=2, label = (x==X[1] ? L"s_0" : ""))
+    end
+    scatter!(X, f.(X), ms=6, c=2, label = "")
+end
 
 
 # """
@@ -172,10 +172,7 @@ using Roots
 # end
 
 
-# end
-# ;
-
-
-# -
+end
+;
 
 
