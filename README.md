@@ -22,6 +22,24 @@ Classes are Monday, Wednesday, Friday 1000-1100, West Mall Swing Space  (SWNG) R
 
 Here I will post a brief summary of each class, including links to the relevant notebooks and class notes. 
 
+## Tentative Outline 
+
+This is a tentative outline of the course material; I will likely shift topics around a bit depending on progress.
+
+* Wk1 (7-9/9) : admin, intro discretisation, Taylor expansion, 1st Julia workshop
+* Wk2 (12-16/9) : linear systems, floating point arithmetic, 2nd Julia workshop 
+* Wk3 (18-23/9) : nonlinear systems, interpolation 
+* Wk4 (26-30/9) : quadrature, optimisation, least squares 
+* Wk5 (3-7/10) : IVPs, Euler method, Runge-Kutta, stability
+* Wk6 (10-14/10) : 10 Oct Thanksgiving, Hamiltonian systems, 2-point BVP 
+* Wk7 (17-21/10) : complete 2pt-BVP, review Fourier analysis, Diffusion 
+* Wk8 (24-28/10) : Continue PDE, Diffusion, Advection 
+* Wk9 (31/10-4/11) : Continue PDE
+* Wk10 (7-11/11) : Spectral Methods 
+* Wk11 (14-18/11) : buffer or further topics 
+* Wk12 (21-25/11) : project presentations
+* Wk13 (28/10-2/11) : project presentations
+* Wk14 (5-7/12) : revision
 
 ## Gallery 
 
