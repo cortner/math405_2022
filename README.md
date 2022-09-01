@@ -11,12 +11,15 @@ README.md
 
 <!-- Questions about the course should normally be posted on [PIAZZA](https://canvas.ubc.ca/courses/55324/external_tools/201?display=borderless) so that the entire group can benefit from the discussion. Please email the instructor only in exceptional circumstances, e.g. when an issue is clearly private. -->
 
-Classes are Monday, Wednesday, Friday 1000-1100, West Mall Swing Space  (SWNG) Rm 107 
+* Classes are Monday, Wednesday, Friday 1000-1100, West Mall Swing Space  (SWNG) Rm 107  
+* Office hours: Monday 1330-1430 and Wed 1100-1200, LSK 303 
+* **Midterm: 28/10**
 
-* You must have access to a [Jupyter](https://jupyter.org) + [Julia](https://julialang.org) environment to complete the assignments. I will provide some instructions on how you can set this up on your private machines, but the recommended and supported way is via a Jupyter Hub server provided by the mathematics department. Instructions will follow. 
+## General Notes 
+
+* You must have access to a [Jupyter](https://jupyter.org) + [Julia](https://julialang.org) environment to complete the assignments. I will provide some instructions on how you can set this up on your private machines, but the recommended and supported way is via a Jupyter Hub server provided by the mathematics department.
 * There is a very nice [online textbook written by Toby Driscoll, Fundamentals of Numerical Computation.](https://fncbook.github.io/fnc/frontmatter.html). Although we won't use this book directly the general content and style are similar to MATH 405/607E. Student who would like to get a rough idea what this course will be like can take a look.
 * Note there is `dev` branch which we use to test assignments and course notes before releasing them on the `main` branch. You are welcome to look, but DO NOT complete any assignment that hasn't yet been released on the `main` branch!
-* Unless you  know what you are doing, please ignore the `jlproject` and `files` folders.
 
 ## Classes
 
@@ -24,19 +27,19 @@ Here I will post a brief summary of each class, including links to the relevant 
 
 ## Tentative Outline 
 
-This is a tentative outline of the course material; I will likely shift topics around a bit depending on progress.
+This is a **tentative** outline of the course material; I will likely shift topics around depending on progress.
 
-* Wk1 (7-9/9) : admin, intro discretisation, Taylor expansion, 1st Julia workshop
-* Wk2 (12-16/9) : linear systems, floating point arithmetic, 2nd Julia workshop 
-* Wk3 (18-23/9) : nonlinear systems, interpolation 
-* Wk4 (26-30/9) : quadrature, optimisation, least squares 
+* Wk1 (5-9/9) : admin, intro discretisation, Taylor expansion, Julia workshop (5/9 Labour Day)
+* Wk2 (12-16/9) : linear systems, review eigenvalue decomposition, floating point arithmetic
+* Wk3 (18-23/9) : nonlinear systems and optimisation
+* Wk4 (26-30/9) : interpolation and quadrature (30/9 National Day for Truth and Reconciliation)
 * Wk5 (3-7/10) : IVPs, Euler method, Runge-Kutta, stability
-* Wk6 (10-14/10) : 10 Oct Thanksgiving, Hamiltonian systems, 2-point BVP 
-* Wk7 (17-21/10) : complete 2pt-BVP, review Fourier analysis, Diffusion 
-* Wk8 (24-28/10) : Continue PDE, Diffusion, Advection 
-* Wk9 (31/10-4/11) : Continue PDE
-* Wk10 (7-11/11) : Spectral Methods 
-* Wk11 (14-18/11) : buffer or further topics 
+* Wk6 (10-14/10) : Hamiltonian systems  (10/10 Thanksgiving)
+* Wk7 (17-21/10) : 2-point BVPs, review Fourier analysis, PDEs
+* Wk8 (24-28/10) : PDEs, **midterm 28/10**
+* Wk9 (31/10-4/11) : Complete PDEs, Spectral Methods
+* Wk10 (7-11/11) : Spectral Methods (9-11/11 Midterm break)
+* Wk11 (14-18/11) : buffer or further topics
 * Wk12 (21-25/11) : project presentations
 * Wk13 (28/10-2/11) : project presentations
 * Wk14 (5-7/12) : revision
