@@ -29,8 +29,8 @@ Here I will post a brief summary of each class, including links to the relevant 
 
 This is a **tentative** outline of the course material; I will likely shift topics around depending on progress.
 
-* Wk1 (5-9/9) : admin, intro discretisation, Taylor expansion, 1st Julia workshop (5/9 Labour Day)
-* Wk2 (12-16/9) : linear systems, floating point arithmetic, 2nd Julia workshop 
+* Wk1 (5-9/9) : admin, intro discretisation, Taylor expansion, Julia workshop (5/9 Labour Day)
+* Wk2 (12-16/9) : linear systems, review eigenvalue decomposition, floating point arithmetic
 * Wk3 (18-23/9) : nonlinear systems and optimisation
 * Wk4 (26-30/9) : interpolation and quadrature (30/9 National Day for Truth and Reconciliation)
 * Wk5 (3-7/10) : IVPs, Euler method, Runge-Kutta, stability
