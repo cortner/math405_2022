@@ -24,19 +24,19 @@ Here I will post a brief summary of each class, including links to the relevant 
 
 ## Tentative Outline 
 
-This is a tentative outline of the course material; I will likely shift topics around a bit depending on progress.
+This is a **tentative** outline of the course material; I will likely shift topics around depending on progress.
 
-* Wk1 (7-9/9) : admin, intro discretisation, Taylor expansion, 1st Julia workshop
+* Wk1 (5-9/9) : admin, intro discretisation, Taylor expansion, 1st Julia workshop (5/9 Labour Day)
 * Wk2 (12-16/9) : linear systems, floating point arithmetic, 2nd Julia workshop 
-* Wk3 (18-23/9) : nonlinear systems, interpolation 
-* Wk4 (26-30/9) : quadrature, optimisation, least squares 
+* Wk3 (18-23/9) : nonlinear systems and optimisation
+* Wk4 (26-30/9) : interpolation and quadrature (30/9 National Day for Truth and Reconciliation)
 * Wk5 (3-7/10) : IVPs, Euler method, Runge-Kutta, stability
-* Wk6 (10-14/10) : 10 Oct Thanksgiving, Hamiltonian systems, 2-point BVP 
-* Wk7 (17-21/10) : complete 2pt-BVP, review Fourier analysis, Diffusion 
-* Wk8 (24-28/10) : Continue PDE, Diffusion, Advection 
-* Wk9 (31/10-4/11) : Continue PDE
-* Wk10 (7-11/11) : Spectral Methods 
-* Wk11 (14-18/11) : buffer or further topics 
+* Wk6 (10-14/10) : Hamiltonian systems  (10/10 Thanksgiving)
+* Wk7 (17-21/10) : 2-point BVPs, review Fourier analysis, midterm 21/10
+* Wk8 (24-28/10) : PDEs: Diffusion and Advection
+* Wk9 (31/10-4/11) : Complete PDEs, Spectral Methods
+* Wk10 (7-11/11) : Spectral Methods (9-11/11 Midterm break)
+* Wk11 (14-18/11) : buffer or further topics
 * Wk12 (21-25/11) : project presentations
 * Wk13 (28/10-2/11) : project presentations
 * Wk14 (5-7/12) : revision
