@@ -6,10 +6,11 @@ README.md
 
 [[Instructor: Christoph Ortner]](http://www.math.ubc.ca/~ortner/)
 [[SYLLABUS]](files/syllabus-math405-2022.pdf)
+[[PIAZZA]](https://canvas.ubc.ca/courses/103731/external_tools/201?display=borderless)
 
-<!--    [[PIAZZA]](https://canvas.ubc.ca/courses/55324/external_tools/201?display=borderless) -->
+Questions about the course should normally be posted on [PIAZZA](https://canvas.ubc.ca/courses/103731/external_tools/201?display=borderless) so that the entire group can benefit from the discussion. Please email the instructor only in exceptional circumstances, e.g. when an issue is clearly private. 
 
-<!-- Questions about the course should normally be posted on [PIAZZA](https://canvas.ubc.ca/courses/55324/external_tools/201?display=borderless) so that the entire group can benefit from the discussion. Please email the instructor only in exceptional circumstances, e.g. when an issue is clearly private. -->
+[[PIAZZA SIGNUP]](https://piazza.com/ubc.ca/winterterm12022/math4051012022w1)
 
 * Classes are Monday, Wednesday, Friday 1000-1100, West Mall Swing Space  (SWNG) Rm 107  
 * Office hours: Monday 1330-1430 and Wed 1100-1200, LSK 303 
