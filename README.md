@@ -24,7 +24,12 @@ Questions about the course should normally be posted on [PIAZZA](https://canvas.
 
 ## Classes
 
-Here I will post a brief summary of each class, including links to the relevant notebooks and class notes. 
+[[Class Notes]](https://notability.com/n/8CcwbmTS3m9B2w6v6dQ~1)
+
+
+- **Wed 7/9:** intro, admin,  L01, L02
+- **Fri 9/9:** more intro, Julia setup, L02, L03 
+- **Mon 12/9:** LU factorisation, L04 
 
 ## Tentative Outline 
 
