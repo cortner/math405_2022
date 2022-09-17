@@ -31,7 +31,7 @@ Questions about the course should normally be posted on [PIAZZA](https://canvas.
 - **Fri 9/9:** more intro, Julia setup, L02, L03 
 - **Mon 12/9:** LU factorisation, L04 
 - **Wed 14/9:** condition number, eigendecomposition, finish L04
-
+- **Fri 16/9:** floating point arithmetic, L05 
 
 ## Tentative Outline 
 
