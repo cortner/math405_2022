@@ -32,6 +32,8 @@ Questions about the course should normally be posted on [PIAZZA](https://canvas.
 - **Mon 12/9:** LU factorisation, L04 
 - **Wed 14/9:** condition number, eigendecomposition, finish L04
 - **Fri 16/9:** floating point arithmetic, L05 
+- **Mon 19/9:** no lecture 
+- **Wed 21/9:** Polynomial interpolation, L06 
 
 ## Tentative Outline 
 
