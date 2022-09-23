@@ -31,7 +31,7 @@ using Roots
 
 module MATH405 
 
-using Plots, LaTeXStrings
+using Plots, LaTeXStrings, FFTW, LinearAlgebra
 
 function chebyshev_projection(N)
     t = range(0, pi, length=300)
@@ -66,6 +66,41 @@ function illustrate_midpoint(f, N)
     end
     scatter!(X, f.(X), ms=6, c=2, label = "")
 end
+
+
+
+"""
+Compute interpolatory quadrature weights using the Vandermonde matrix. 
+This is an unstable procedure and should normally NOT be used.
+"""
+function unstable_quad_weights(X) 
+    N = length(X)-1
+    V = [ x^n for x in X, n = 0:N ]
+    return pinv(V)' * collect(1:N+1)
+end
+
+
+
+chebnodes(N) = 0.5 .+ 0.5 * cos.(range(0, π, length=N+1))
+
+chebcoeffs(f, N) = fct(f.(chebnodes(N)))
+
+function fct(A::AbstractVector)
+    N = length(A)
+    F = real.(ifft([A[1:N]; A[N-1:-1:2]]))
+   return [[F[1]]; 2*F[2:(N-1)]; [F[N]]]
+end
+
+"""
+Stable implementation of Clenshaw Curtis Quadrature 
+"""
+
+function stable_clenshaw_curtis(f, N)
+    A = chebcoeffs(f, N) 
+    W = zeros(length(A)); W[1:2:end] = 2 ./ (1 .- (0:2:N).^2) 
+    return 0.5 * dot(W, A) 
+end
+
 
 
 # """
@@ -168,3 +203,5 @@ end
 
 end
 ;
+
+
