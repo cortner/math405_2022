@@ -34,6 +34,8 @@ Questions about the course should normally be posted on [PIAZZA](https://canvas.
 - **Fri 16/9:** floating point arithmetic, L05 
 - **Mon 19/9:** no lecture 
 - **Wed 21/9:** Polynomial interpolation, L06 
+- **Fri 23/9:** Polynomial interpolation L06, Quadrature L07
+- **Mon 26/9:** Finished Quadrature L07
 
 ## Tentative Outline 
 
