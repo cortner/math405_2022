@@ -32,10 +32,13 @@ Questions about the course should normally be posted on [PIAZZA](https://canvas.
 - **Mon 12/9:** LU factorisation, L04 
 - **Wed 14/9:** condition number, eigendecomposition, finish L04
 - **Fri 16/9:** floating point arithmetic, L05 
-- **Mon 19/9:** no lecture 
+- **Mon 19/9:** no class 
 - **Wed 21/9:** Polynomial interpolation, L06 
 - **Fri 23/9:** Polynomial interpolation L06, Quadrature L07
 - **Mon 26/9:** Finished Quadrature L07
+- **Wed 28/9:** Nonlinear equations L08 
+- **Fri 30/9:** no class - Truth and reconciliation day
+- **Mon 3/10:** Nonlinear systems 
 
 ## Tentative Outline 
 
