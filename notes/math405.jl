@@ -103,102 +103,100 @@ end
 
 
 
-# """
-# A basic utility function to plot sublevel sets. I've tested this with GR, Plotly and PyPlot. 
-# Only PyPlot appears to produce the desired result. Turn on the PyPlot backend by calling 
-# `Plots.pyplot()`
-# """
-# levelset(args...; kwargs...) = levelset!(plot(), args...; kwargs...)
+using Images
 
-# function levelset!(plt, xlims, ylims, fs, s; label = "", xy=true, ngrid=100, kwargs...)
-#     if Plots.backend_name() != :pyplot 
-#         @warn("""This function has so far only been tested with the pyplot backend. 
-#                  Please switch backend by calling Plots.pyplot()""")
-#     end
-#     f1 = (x, y) -> max(s-0.1, min(s+0.1, f(x,y)))
-#     plt = plot(; xaxis = [xlims...], yaxis = [ylims...])
+"""
+A basic utility function to plot sublevel sets.
+"""
+levelset(args...; kwargs...) = levelset!(plot(), args...; kwargs...)
 
-#     if fs isa Function 
-#         fs = [fs]
-#         label = [label]
-#     end
-
-#     x = range(xlims[1], xlims[2], length=ngrid)
-#     y = range(ylims[1], ylims[2], length=ngrid)
-#     o = ones(length(x))
-#     X = x * o' 
-#     Y = o * y'
-#     x_ =  [xlims[2]+1, xlims[2]+2]
-#     y_ = [0,0]
-
-#     for (c, (f, lab)) in enumerate(zip(fs, label))
-#         contour!(plt, X, Y, f.(X,Y); label = "", size=(300,300),levels = [-1e300, s], c = c, lw=3, colorbar=false, fill=true, kwargs...)
-#         plot!(x_, y_, lw=3, c=c, label = lab)
-#     end 
+function levelset!(plt, xlims, ylims, fs, s; col = nothing, label = "", xy=true, ngrid=400, sz = (300, 300), kwargs...)
+    if fs isa Function
+        fs = [fs,]
+    end
     
-#     if xy
-#         hline!(plt, [0.0], c=:gray, lw=1, label = "")
-#         vline!([0.0], c=:grey, lw=1, label = "")
-#         annotate!(xlims[2], 0.02, text("Re(z)", :right, :bottom, :grey, 12))
-#         annotate!(0.04, ylims[2], text("Im(z)", :left, :top, :grey, 12))    
-#     end 
+    colors = Plots.get_color_palette(:default, 1)
+    white = RGB(1,1,1)
+
+    x = range(xlims[1], xlims[2], length=ngrid)
+    y = range(ylims[1], ylims[2], length=ngrid)
+
+    Nx = length(x); Ny = length(y)
+    cols = fill(white, (Nx, Ny))
     
-#     return plt
-# end
+    for (c, f) in enumerate(fs)
+        if length(fs) == 1 && col != nothing; c = col; end 
+        for i = 1:Nx, j = 1:Ny
+            z = f(x[i], y[j])
+            if z < s 
+                cols[j, i] = colors[c] 
+            end 
+        end
+    end
+    
+    plt = plot(x, y, cols; size = sz, kwargs...)
+    if xy
+        hline!(plt, [0.0], c=:gray, lw=1, label = "")
+        vline!([0.0], c=:grey, lw=1, label = "")
+        annotate!(xlims[2], 0.02, text("Re(z)", :right, :bottom, :grey, 12))
+        annotate!(0.04, ylims[2] - 0.5, text("Im(z)", :left, :top, :grey, 12))    
+    end 
+
+    return plt 
+end
+
+function rk4_step(u, f, h)
+    k1 = h * f(u)
+    k2 = h * f(u + 0.5 * k1)
+    k3 = h * f(u + 0.5 * k2)
+    k4 = h * f(u + k3)
+    return u + k1/6 + k2/3 + k3/3 + k4/6
+end
 
 
-# function rk4_step(u, f, h)
-#     k1 = h * f(u)
-#     k2 = h * f(u + 0.5 * k1)
-#     k3 = h * f(u + 0.5 * k2)
-#     k4 = h * f(u + k3)
-#     return u + k1/6 + k2/3 + k3/3 + k4/6
-# end
+function illustrate_mol()
+    X = range(0, 1, length=10)
+    vline(X[:], lw=2, label = "")
+    scatter!(X[:], 0*X[:], ms = 8, label = "", 
+                  size = (400, 200), xlabel = L"x_n", ylabel = L"t",
+                    yaxis = [-0.05, 2.5])
+end
 
 
-# function illustrate_mol()
-#     X = range(0, 1, length=10)
-#     vline(X[:], lw=2, label = "")
-#     scatter!(X[:], 0*X[:], ms = 8, label = "", 
-#                   size = (400, 200), xlabel = L"x_n", ylabel = L"t",
-#                     yaxis = [-0.05, 2.5])
-# end
-
-
-# function illustrate_characteristicsR()
-#     plt = plot([-1, 2], [0,0]; c=:black, lw=2, label = "", 
-#                 size = (400, 200), xlims = (-0.02, 1.02), ylims = (-0.02, 0.52), 
-#                 xlabel = "x", ylabel = "t", title = L"a = 1")
-#     for x in -1:0.2:0.99 
-#         plot!([x, 2], [0, 2-x], c=1, lw=2, label = "")
-#     end 
-#     return plt
-# end
+function illustrate_characteristicsR()
+    plt = plot([-1, 2], [0,0]; c=:black, lw=2, label = "", 
+                size = (400, 200), xlims = (-0.02, 1.02), ylims = (-0.02, 0.52), 
+                xlabel = "x", ylabel = "t", title = L"a = 1")
+    for x in -1:0.2:0.99 
+        plot!([x, 2], [0, 2-x], c=1, lw=2, label = "")
+    end 
+    return plt
+end
 
 
 
-# function illustrate_characteristics()
-#     plt = plot([0,0,1,1], [0.5,0,0,0.5], c=:black, lw=2, label = "", 
-#                 size = (400, 200), xlims = (-0.02, 1.02), ylims = (-0.02, 0.52), 
-#                 xlabel = "x", ylabel = "t", title = L"a = 1")
-#     for x in 0:0.2:0.99 
-#         plot!([x, 1], [0, 1-x], c=1, lw=2, label = "")
-#     end 
-#     for y in 0.2:0.2:0.5 
-#         plot!([0, 1], [y, y+1], c=1, lw=2, label = "")
-#     end
-#     return plt
-# end
+function illustrate_characteristics()
+    plt = plot([0,0,1,1], [0.5,0,0,0.5], c=:black, lw=2, label = "", 
+                size = (400, 200), xlims = (-0.02, 1.02), ylims = (-0.02, 0.52), 
+                xlabel = "x", ylabel = "t", title = L"a = 1")
+    for x in 0:0.2:0.99 
+        plot!([x, 1], [0, 1-x], c=1, lw=2, label = "")
+    end 
+    for y in 0.2:0.2:0.5 
+        plot!([0, 1], [y, y+1], c=1, lw=2, label = "")
+    end
+    return plt
+end
 
 
-# function illustrate_fwdbwdstencils()
-#     illustrate_characteristicsR()
-#     vline!(0:0.2:1, c=:black, lw = 1, label = "")
-#     hline!(0:0.15:0.5, c=:black, lw = 1, label = "")
-#     plot!([0.2, 0.2, 0.4], [0.3, 0.15, 0.15], c=2, lw=3, ms=6, m = :o, label = L"D^+")
-#     plot!([0.8, 0.8, 0.6], [0.3, 0.15, 0.15], c=3, lw=3, ms=6, m = :o, label = L"D^-")
-#     plot!(; title = "Finite Difference Stencils", legend = :outertopright, size = (500, 250))
-# end
+function illustrate_fwdbwdstencils()
+    illustrate_characteristicsR()
+    vline!(0:0.2:1, c=:black, lw = 1, label = "")
+    hline!(0:0.15:0.5, c=:black, lw = 1, label = "")
+    plot!([0.2, 0.2, 0.4], [0.3, 0.15, 0.15], c=2, lw=3, ms=6, m = :o, label = L"D^+")
+    plot!([0.8, 0.8, 0.6], [0.3, 0.15, 0.15], c=3, lw=3, ms=6, m = :o, label = L"D^-")
+    plot!(; title = "Finite Difference Stencils", legend = :outertopright, size = (500, 250))
+end
 
 
 end
