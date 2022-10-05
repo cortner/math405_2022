@@ -44,8 +44,8 @@ Preview:
 - **Wed 5/10:** Initial value problems, Euler method
 - **Fri 7/10:** Initial value problems, Euler method
 - **Mon 10/10:** no class - Thanksgiving
-- **Wed 12/10:** Polynomial regression with Ruo Ning Guo
-- **Fri 14/10:** A1, A2 revision class with Ruo Ning Guo
+- **Wed 12/10:** Polynomial regression with Ruo Ning Qiu
+- **Fri 14/10:** A1, A2 revision class with Ruo Ning Qiu
 
 ## Tentative Outline 
 
