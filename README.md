@@ -39,10 +39,10 @@ Questions about the course should normally be posted on [PIAZZA](https://canvas.
 - **Wed 28/9:** Nonlinear equations L08 
 - **Fri 30/9:** no class - Truth and reconciliation day
 - **Mon 3/10:** Nonlinear systems; [notes on Newton's method](https://notability.com/n/1f5jQ30pG2Cc1qLZe0ZHQ3)
-- **Wed 5/10:** Initial value problems, Euler method
+- **Wed 5/10:** Initial value problems, Euler method, L09
 
 Preview:
-- **Fri 7/10:** Initial value problems, Euler method
+- **Fri 7/10:** Initial value problems, Runge Kutta Methods 
 - **Mon 10/10:** no class - Thanksgiving
 - **Wed 12/10:** Polynomial regression with Ruo Ning Qiu
 - **Fri 14/10:** A1, A2 revision class with Ruo Ning Qiu
