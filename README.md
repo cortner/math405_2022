@@ -40,32 +40,25 @@ Questions about the course should normally be posted on [PIAZZA](https://canvas.
 - **Fri 30/9:** no class - Truth and reconciliation day
 - **Mon 3/10:** Nonlinear systems; [notes on Newton's method](https://notability.com/n/1f5jQ30pG2Cc1qLZe0ZHQ3)
 - **Wed 5/10:** Initial value problems, Euler method, L09
-
-Preview:
 - **Fri 7/10:** Initial value problems, Runge Kutta Methods 
 - **Mon 10/10:** no class - Thanksgiving
 - **Wed 12/10:** Polynomial regression with Ruo Ning Qiu
-- **Fri 14/10:** A1, A2 revision class with Ruo Ning Qiu
+- **Fri 14/10:** A0, A1 revision class with Ruo Ning Qiu
 - **Mon 17/10:** Review of consistency and stability
+- **Wed 19/10:** Dissipative systems, Regions of stability, L10
+- **Fri 21/10:** Hamiltonian Systems, energy conservation, L11 
 
-## Tentative Outline 
+## Preview / Tentative Outline
 
-This is a **tentative** outline of the course material; I will likely shift topics around depending on progress.
-
-* Wk1 (5-9/9) : admin, intro discretisation, Taylor expansion, Julia workshop (5/9 Labour Day)
-* Wk2 (12-16/9) : linear systems, review eigenvalue decomposition, floating point arithmetic
-* Wk3 (18-23/9) : nonlinear systems and optimisation
-* Wk4 (26-30/9) : interpolation and quadrature (30/9 National Day for Truth and Reconciliation)
-* Wk5 (3-7/10) : IVPs, Euler method, Runge-Kutta, stability
-* Wk6 (10-14/10) : Hamiltonian systems  (10/10 Thanksgiving)
-* Wk7 (17-21/10) : 2-point BVPs, review Fourier analysis, PDEs
-* Wk8 (24-28/10) : PDEs, **midterm 28/10**
-* Wk9 (31/10-4/11) : Complete PDEs, Spectral Methods
-* Wk10 (7-11/11) : Spectral Methods (9-11/11 Midterm break)
-* Wk11 (14-18/11) : buffer or further topics
-* Wk12 (21-25/11) : project presentations
-* Wk13 (28/10-2/11) : project presentations
-* Wk14 (5-7/12) : revision
+- **Mon 24/10:** 2-point BVPs 
+- **Wed 26/10:** Intro PDEs / review Fourier analysis
+- **Fri 28/10:** Midterm 
+- Wk9 (31/10-4/11) : PDEs
+- Wk10 (7-11/11) : PDEs (9-11/11 Midterm break)
+- Wk11 (14-18/11) : Spectral Methods 
+- Wk12 (21-25/11) : project presentations
+- Wk13 (28/10-2/11) : project presentations
+- Wk14 (5-7/12) : revision
 
 ## Gallery 
 
