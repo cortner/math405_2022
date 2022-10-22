@@ -44,14 +44,14 @@ Questions about the course should normally be posted on [PIAZZA](https://canvas.
 - **Mon 10/10:** no class - Thanksgiving
 - **Wed 12/10:** Polynomial regression with Ruo Ning Qiu
 - **Fri 14/10:** A0, A1 revision class with Ruo Ning Qiu
-- **Mon 17/10:** Review of consistency and stability
+- **Mon 17/10:** Review of consistency and stability; see [class notes](https://notability.com/n/8CcwbmTS3m9B2w6v6dQ~1) and also my [Notes on Gronwall Inequalities](https://notability.com/n/2X77ioz2K0ashri7MjBVJV)
 - **Wed 19/10:** Dissipative systems, Regions of stability, L10
 - **Fri 21/10:** Hamiltonian Systems, energy conservation, L11 
 
 ## Preview / Tentative Outline
 
 - **Mon 24/10:** 2-point BVPs 
-- **Wed 26/10:** Intro PDEs / review Fourier analysis
+- **Wed 26/10:** Intro PDEs / review Fourier analysis; see [class notes](https://notability.com/n/8CcwbmTS3m9B2w6v6dQ~1) and my [notes on Fourier analysis](https://notability.com/n/0BwxN5dI8CFd2GXqqsfmeu)
 - **Fri 28/10:** Midterm 
 - Wk9 (31/10-4/11) : PDEs
 - Wk10 (7-11/11) : PDEs (9-11/11 Midterm break)
