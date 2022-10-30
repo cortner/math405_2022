@@ -50,7 +50,6 @@ Questions about the course should normally be posted on [PIAZZA](https://canvas.
 - **Mon 24/10:** 2-point BVPs; L12a, see [class notes](https://notability.com/n/8CcwbmTS3m9B2w6v6dQ~1) and my [notes on 2pt-bvp](https://notability.com/n/1hTItCHXW73ANx0yeE1TxF) 
 - **Wed 26/10:** BVPs ctd; L12a, L12b and [class notes](https://notability.com/n/8CcwbmTS3m9B2w6v6dQ~1)
 - **Fri 28/10:** Midterm 
--  review Fourier analysis; see [class notes](https://notability.com/n/8CcwbmTS3m9B2w6v6dQ~1) and my [notes on Fourier analysis](https://notability.com/n/0BwxN5dI8CFd2GXqqsfmeu)
 
 <!-- NOTES for future : 
 - overall the timing was quite good 
@@ -61,6 +60,7 @@ Questions about the course should normally be posted on [PIAZZA](https://canvas.
 ## Preview / Tentative Outline
 
 - Wk9 (31/10-4/11) : PDEs
+-  review Fourier analysis; see [class notes](https://notability.com/n/8CcwbmTS3m9B2w6v6dQ~1) and my [notes on Fourier analysis](https://notability.com/n/0BwxN5dI8CFd2GXqqsfmeu)
 - Wk10 (7-11/11) : PDEs (9-11/11 Midterm break)
 - Wk11 (14-18/11) : Spectral Methods 
 - Wk12 (21-25/11) : project presentations
