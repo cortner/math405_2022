@@ -50,18 +50,22 @@ Questions about the course should normally be posted on [PIAZZA](https://canvas.
 - **Mon 24/10:** 2-point BVPs; L12a, see [class notes](https://notability.com/n/8CcwbmTS3m9B2w6v6dQ~1) and my [notes on 2pt-bvp](https://notability.com/n/1hTItCHXW73ANx0yeE1TxF) 
 - **Wed 26/10:** BVPs ctd; L12a, L12b and [class notes](https://notability.com/n/8CcwbmTS3m9B2w6v6dQ~1)
 - **Fri 28/10:** Midterm 
+- **Mon 31/10:** PDEs, diffusion L13
+- **Wed 2/11:** review Fourier analysis; see [class notes](https://notability.com/n/8CcwbmTS3m9B2w6v6dQ~1) and my [notes on Fourier analysis](https://notability.com/n/0BwxN5dI8CFd2GXqqsfmeu)
+- **Fri 4/11:** PDEs, diffusion L13 and advection, L14  
+- **Mon 7/11:** PDEs, advection, L14 
+- **Wed 9/11 and Fri 11/11:** midterm break 
+- **Mon 14/11:** Spectral methods, approximation, L15 and [notes](https://notability.com/n/0MTNF2R5h0tdg9N0C_yrA8)
 
 <!-- NOTES for future : 
 - overall the timing was quite good 
 - L10 was a bit longer than 1 50 min lecture; this was dobale but borderline
 - L11 was a bit shorter
+- should spend a bit of time on Gronwall inequalities and maybe also the stable case 
 -->
 
 ## Preview / Tentative Outline
 
-- Wk9 (31/10-4/11) : PDEs
--  review Fourier analysis; see [class notes](https://notability.com/n/8CcwbmTS3m9B2w6v6dQ~1) and my [notes on Fourier analysis](https://notability.com/n/0BwxN5dI8CFd2GXqqsfmeu)
-- Wk10 (7-11/11) : PDEs (9-11/11 Midterm break)
 - Wk11 (14-18/11) : Spectral Methods 
 - Wk12 (21-25/11) : project presentations
 - Wk13 (28/10-2/11) : project presentations
