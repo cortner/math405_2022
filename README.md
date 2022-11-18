@@ -55,7 +55,11 @@ Questions about the course should normally be posted on [PIAZZA](https://canvas.
 - **Fri 4/11:** PDEs, diffusion L13 and advection, L14  
 - **Mon 7/11:** PDEs, advection, L14 
 - **Wed 9/11 and Fri 11/11:** midterm break 
-- **Mon 14/11:** Spectral methods, approximation, L15 and [notes](https://notability.com/n/0MTNF2R5h0tdg9N0C_yrA8)
+- **Mon 14/11 and Wed 16/11:** Spectral methods, approximation, L15 and [notes](https://notability.com/n/0MTNF2R5h0tdg9N0C_yrA8)
+- **Fri 18/11 and Mon 21/11:** Spectral methods, PDEs, L16 and [notes](https://notability.com/n/zbdgBhZWEqcIm_4GNwZ5x)
+- **Wed 23/11 to Fri 2/12:** Project Presentations
+- **Mon 7/11 and Wed 7/11:** revision
+
 
 <!-- NOTES for future : 
 - overall the timing was quite good 
@@ -63,13 +67,6 @@ Questions about the course should normally be posted on [PIAZZA](https://canvas.
 - L11 was a bit shorter
 - should spend a bit of time on Gronwall inequalities and maybe also the stable case 
 -->
-
-## Preview / Tentative Outline
-
-- Wk11 (14-18/11) : Spectral Methods 
-- Wk12 (21-25/11) : project presentations
-- Wk13 (28/10-2/11) : project presentations
-- Wk14 (5-7/12) : revision
 
 ## Gallery 
 
